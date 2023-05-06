@@ -1,0 +1,63 @@
+.section{
+    @apply h-[100%] w-[100%] items-center bg-[#ffffff] flex flex-col sm:grid sm:grid-cols-2
+}
+.section__img{
+    @apply w-[90%] h-[241px] 
+}
+
+
+
+.section__card{
+    @apply absolute right-2 top-32 rounded-tr-[39px] rounded-lg w-[110px] h-[110px] bg-[#09B472] grid grid-rows-3 place-items-center
+}
+
+.section__card_h2{
+    @apply font-medium text-[.9rem] leading-4 text-[#FFFFFF]
+}
+
+.section__card_h5{
+    @apply font-bold text-[2.44rem] leading-[2.45rem] text-[#FFFFFF]
+}
+
+.section__card_h3{
+    @apply font-medium text-[.9rem] leading-[0.9rem] text-[#FFFFFF] text-center
+}
+
+/* datos*/
+
+.datos{
+    @apply w-[90%] py-1
+}
+
+.datos__contai{
+    @apply h-[91px] py-2
+}
+
+.datos__contai_h1{
+    @apply font-bold text-[1.563rem] leading-[1.88rem] text-[#3C3531]
+}
+
+.datos_p{
+    @apply font-light text-[1rem] leading-[1.5rem] text-[#606060] py-4
+}
+
+.section__card_{
+    @apply flex w-[97%] border-2 border-[#09B472] rounded-r-3xl gap-2 my-3
+}
+.section__card_span{
+    @apply w-[9px] h-[190px] bg-[#09B472]
+}
+
+.section__card_contenido{
+    @apply w-[90%] m-auto
+}
+
+
+.section__card_contenido-h2{
+    @apply font-medium text-[#09B472] leading-[1.2rem] text-[1rem] w-[5.625rem] h-[1.19rem]
+}
+
+.section__card_contenido-h4{
+    @apply w-[270px] h-[120px] font-light text-[.94rem] leading-[1.5rem] text-[#606060]
+}
+

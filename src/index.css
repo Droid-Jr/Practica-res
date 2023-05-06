@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* componente header*/
+
+.header {
+    @apply relative flex justify-end items-center bg-[#3C3531] w-[100%] h-[60px] 
+}
+.header__icon{
+    @apply text-[35px]  text-white mx-1
+}
+i{
+    @apply mx-2
+}
+.header__menu{
+    @apply  w-[17%]  bg-[#FFFFFF] h-[60px] grid place-content-center
+}
+button > i {
+    @apply text-[40px]
+}
+/* menu desplegable pe causa GAAAAA*/
+
+.menu__{
+    @apply  w-[100%] h-[298px] absolute bg-[#6B4938]  rounded-b-[20px]  
+}
+
+.menu__datos{
+    @apply grid gap-3
+}
+
+h3{
+    @apply mx-5 py-[1px] text-[#ffff] font-semibold text-[19px] leading-5
+}
+
+/* main pe causa GAAAAA*/
+
+.main{
+    @apply bg-[url('/fontpe.jpg')] bg-center bg-cover w-[100%] h-screen grid place-content-center 
+}
+
+.main__caja{
+    @apply flex items-center justify-center py-3
+}
+.main__span{
+    @apply w-[10px] h-[10px] rounded-full bg-[#0B8A75] mx-4
+}
+.main__text1{
+    @apply font-extrabold text-[33px] text-white
+}
+.main__caja2{
+    @apply text-center text-white py-3
+}
+.main__text2{
+    @apply font-extrabold text-[53px] leading-[50px]
+}
+
+.padding{
+    @apply py-3
+}
+.padding__p{
+    @apply font-normal text-[15px] leading-[18px] text-center text-[white]
+}
+.main__buton{
+    @apply translate-x-[50px] py-3
+}
+
+/* xd */
+
+
+
+/* componente  boton  */
+.btn{
+    @apply flex w-[157px] h-[45px] gap-[4px] left-[5px] 
+}
+
+
+
+.span{
+    @apply h-[45px] w-[3px] bg-[#6B4938] 
+}
+
+
+.btns {
+    @apply py-[12px] px-[30px] border-2 border-[black]  font-bold
+}
+
+
+.btn:hover .span{
+    @apply bg-[green]
+}
+.btn:hover .btns{
+    @apply bg-[green]
+}
+
+/* menu prueba*/
+
+
+.menu__1{
+    @apply bg-[red] translate-y-[0px] transition duration-700 ease-in-out opacity-[2]
+}
+
+.menu__2{
+    @apply translate-y-[-120px] opacity-0
+}
